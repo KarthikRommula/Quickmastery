@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICK MASTERY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+    #about {
+        position: relative;
+        top: -20px; 
+        left: -30px;
+        margin-left: 0px;
+        font-size: 27px;
+        cursor:pointer;
+        text-decoration: none;
+   }
+   @media only screen and (max-width:900px) {
+    a{
+        cursor: none;
+    }
+    i.about.fa-solid.fa-circle-info.fa-xl::before{
+        cursor:none;
+    }
+    .logo img {
+    width: 150px;
+    cursor:none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    }
+
+    .content {
+        padding: auto;
+    }
+
+    h2 {
+        font-size: 22px;
+
+    }
+
+    .content p {
+        margin: 0px 5px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+    button {
+        cursor: auto;
+    }
+    #about {
+    font-size:27px;
+    cursor:none;
+    position: relative;
+    top: -5px; 
+    left: -20px;
+    }
+    }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="LOGO TEXT.png"
+                alt="QUICK MASTERY"> </a>
+        <div class="navbar">
+            <div class="menu">
+            <a href="about.html" target=_blank><i class="fa-solid fa-circle-info fa-xl" id="about" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Unlocking Academic Success</h2>
+        <p>Your one-stop destination for simplifying BTech studies and accelerating your learning journey. </p>
+        <div>
+            <button type="button"
+                onclick="location.href='home.html'"><span></span>START</button>
+
+        </div>
+    </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+if(disclaimer) {
+disclaimer.remove();
+}
+});
+</script>    
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="home.html" class="logo-link">
+                <img src="LOGO TEXT.png" alt="Logo">
+            </a>
+        </div>
+        <div class="nav-search">
+            <div class="search-bar">
+                <div class="search-input-container">
+                    <input type="text" id="searchInput" placeholder="Search" />
+                    <button id="searchButton"><i class="fa-solid fa-magnifying-glass fa-2xl"
+                            style="color: #000000;"></i></button>
+                    <ul class="suggestions"></ul>
+                </div>
+                <div class="logout">
+                    <button onclick="location.href='index.html'" id="logout"><i
+                            class="fa-solid fa-right-from-bracket fa-2xl" style="color:#f1f1f1;"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="courses">
+            <div class="container">
+                <span class="title">
+                    <h1><i class="fa-solid fa-shuffle fa-lg" style="color:#ff004f;"></i> BTECH 1ST YEAR COURSE
+                    </h1>
+                </span>
+                <div class="courses-list">
+                    <!-- Your course content here -->
+                    <div>
+                        <i class="fa-solid fa-bug" style="color: #000000;"></i>
+                        <h2>C PROGRAMMING</h2>
+                        <P>Are you eager to become a proficient C programmer? Look no further! Our website is
+                            your
+                            one-stop resource for mastering the C programming language quickly and efficiently.
+                        </P><br>
+                        <a href="c_programming.html">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-wave-square" style="color: #000000;"></i>
+                        <h2>MATHEMATICS-1</h2>
+                        <P>Ready to conquer Mathematics-1 with confidence? You've come to the right place! Our
+                            website
+                            is your ultimate resource for swiftly mastering the core concepts of Mathematics-1.
+                        </P><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-plug-circle-bolt" style="color: #000000;"></i>
+                        <h2>BASIC ELECTRICAL ENGINEERING</h2>
+                        <P>Are you looking to demystify the world of electrical engineering? You're in the right
+                            place!
+                            Our website is your go-to resource for mastering the fundamentals of Basic
+                            Electrical
+                            Engineering quickly and effectively.</P><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-compass-drafting" style="color: #000000;"></i>
+                        <h2>ENGINEERING GRAPHICS</h2>
+                        <P>Are you ready to explore the world of Engineering Graphics with confidence and
+                            precision?Look
+                            no further! Our website is your ultimate resource for swiftly mastering the art of
+                            EG.Tutorials,Downloadable Resources.</P><br><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-atom" style="color: #000000;"></i>
+                        <h2>PHYSICS</h2>
+                        <P>Ready to unlock the secrets of the universe through the lens of physics? You've
+                            arrived at
+                            the perfect destination. Our website is your ultimate resource for mastering the
+                            fascinating
+                            world of physics quickly and comprehensively.</P><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-flask-vial" style="color: #000000;"></i>
+                        <h2>CHEMISTRY</h2>
+                        <P>Are you ready to delve into the fascinating world of chemistry with confidence and
+                            expertise?
+                            Look no further! Our website is your ultimate resource for mastering the diverse and
+                            captivating field of chemistry quickly and comprehensively.</P><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pen-to-square" style="color: #000000;"></i>
+                        <h2>ENGLISH</h2>
+                        <P>Are you ready to embark on a journey of language mastery and effective communication?
+                            Your
+                            adventure begins right here. Our website is your ultimate resource for quickly and
+                            efficiently honing your skills in the English language.</P><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-infinity" style="color: #000000;"></i>
+                        <h2>MATHEMATICS-2</h2>
+                        <P>Are you prepared to conquer the world of advanced mathematics with confidence and
+                            expertise?
+                            You're in the right place! Our website is your ultimate resource for swiftly
+                            mastering the
+                            complex topics of Mathematics-2.</P><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python" style="color: #000000;"></i>
+                        <h2>PYTHON</h2>
+                        <P>Are you eager to become a proficient Python programmer? Look no further! Our website
+                            is your
+                            ultimate resource for swiftly mastering the Python programming language with ease
+                            and
+                            confidence.</P><br><br>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+            <i class="fa-solid fa-spinner"></i>
+    </div>
+    </main>
+    <div id="contact">
+        <div class="table">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">SUGGEST ME!</h1>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="YOUR NAME" required>
+                        <input type="email" name="Email" placeholder="YOUR EMAIL" required>
+                        <textarea name="Suggestion" placeholder="YOUR SUGGESTIONS"></textarea>
+                        <button type="submit" class="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="suggest-img.png" alt="IMAGE">
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy; 2023 KARTHIK - QUICK MASTERY</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Remove the 000webhost disclaimer image, if present
+            const disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+            if (disclaimer) {
+                disclaimer.remove();
+            }
+    
+            // Google Sheets form submission
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbweoAvbXTx4IdzA8uiqnyPvPEkTJfrajlt5PJ7kCNwZdf_ogY-msXVSx2x38iudZejw/exec';
+            const form = document.forms['submit-to-google-sheet'];
+    
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message));
+            });
+    
+            // Handle 'Learn more' link clicks and show loading spinner
+            const learnMoreLinks = document.querySelectorAll(".courses-list a");
+            const loadingSpinner = document.getElementById("loadingSpinner");
+    
+            learnMoreLinks.forEach(link => {
+                link.addEventListener("click", e => {
+                    e.preventDefault(); // Prevent default link action
+                    loadingSpinner.style.display = "block"; // Show loading spinner
+    
+                    // Delay of 0.5 seconds (500 milliseconds) before redirecting
+                    setTimeout(() => {
+                        window.location.href = link.getAttribute("href");
+                    }, 100);
+                });
+            });
+        });
+        const navLinks = document.querySelectorAll("nav a.logo-link, nav button#logout"); // Select logo link and logout button
+const loadingSpinner = document.getElementById("loadingSpinner");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", e => {
+        e.preventDefault(); // Prevent default link action
+        loadingSpinner.style.display = "block"; // Show loading spinner
+
+        // Delay of 0.5 seconds (500 milliseconds) before redirecting
+        setTimeout(() => {
+            // If it's a link, we navigate to the href, if it's a button, we navigate to the location defined in onclick
+            if (link.tagName === 'A') {
+                window.location.href = link.getAttribute("href");
+            } else if (link.tagName === 'BUTTON') {
+                link.click(); // Trigger the button's click event
+            }
+        }, 100);
+    });
+});
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-position: center; 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: justify;
+    
+}
+.header {
+    background-color:transparent;
+    text-align: center;
+    }
+.logo img {
+    width: 200px;    
+}
+.intro {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top:1px;
+    padding-bottom: 13px;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black
+}
+.info ul {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right:20px;
+
+}
+.info li::before {
+    content: '\2022'; 
+    margin-right: 10px;
+    color:#0078d4;
+}
+
+h2 {
+    margin-top: 10px;
+    color: black;
+}
+@media (max-width: 900px) {
+    .logo img {
+    width: 150px;
+    cursor:none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    }
+    body{
+        text-align:left;
+        background-image: url(clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+        height:100rem;
+        background-position: center; 
+        background-size: cover;
+    }
+    .intro {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+    text-align:left;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top:1px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+    text-align:left;
+}
+.info ul {
+    list-style-type: none;
+    margin-left: -15px;
+    margin-right: -18px;
+    
+}
+.info li::before {
+    content: '\2022'; 
+    margin-right: 5px;
+    color:#0078d4;
+}
+
+h2 {
+    margin-top: 10px;
+    color: black;
+}
+}

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("clint-patterson-dYEuFB8KQJk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+}
+
+.logo img {
+   width: 230px;
+
+}
+.fa-solid.fa-circle-info.fa-xl {
+    position: relative;
+    top: -20px; 
+    left: -30px;
+    margin-left: 0px;
+}
+.content {
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.content h2 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.content p {
+    margin: 0px auto;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+button {
+    text-align: center;
+    width: 140px;
+    padding: 15px 0;
+    border-radius: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 10px;
+    border: 2px solid cyan;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    font-size:x-large;
+}
+
+button:hover span {
+    width: 100%;
+    border: none;
+}
+
+span {
+    background: rgba(83, 240, 240, 0.753);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.2s;
+}
+
+
+
